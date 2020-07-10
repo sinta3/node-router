@@ -17,7 +17,7 @@ header {
 img {
     border-radius:100%;
     z-index:2;
-    margin-bottom:-100px;
+    margin-top:100px;
 }
 #nav {
     margin:0;
@@ -27,5 +27,26 @@ img {
 
 .content {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    margin:auto;
+    margin-left:100px;
+}
+
+
+.sosial img{
+    margin:20px;
+    width:34px;
+    
+}
+.sosial a:hover img{
+    width:42px;
+}
+
+.main {
+    width:auto;
+    display:flex;
+}
+
+.main img {
+    margin-top: 0;
 }
